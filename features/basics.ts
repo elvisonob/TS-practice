@@ -1,3 +1,16 @@
-let cars: Array<string | number>;
+type User = {
+  name: string;
+  age: number;
+  job: string;
+  fiber: () => string;
+};
 
-cars = ['Ford', 'Benz', 10, 'Toyota'];
+const users: User = {
+  name: 'elvis',
+  age: 34,
+  job: 'Software developer',
+  fiber() {
+    console.log('one love');
+    return 'one love';
+  },
+};
