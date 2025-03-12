@@ -7,7 +7,7 @@ type User = {
 
 const users: User = {
   name: 'elvis',
-  age: 34,
+  age: 35,
   fiber() {
     console.log('one love');
     return 'one love';
